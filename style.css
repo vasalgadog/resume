@@ -1,0 +1,235 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f4f8;
+    color: #333;
+    padding: 20px;
+}
+
+/* Encabezado */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1f3b58;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    transition: all 0.3s ease;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 20px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: width 0.3s ease, height 0.3s ease;
+}
+
+.header-text {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+header a{
+    color: #e6e6e6;
+    font-weight: inherit;
+}
+
+header a:hover{
+    color: #fff;
+    font-weight: initial;
+}
+
+main{
+    max-width: 90%;
+    margin: auto;
+    margin-top: 200px;
+}
+
+/* Secciones generales */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+section h2 {
+    font-size: 2rem;
+    color: #1f3b58;
+    border-bottom: 2px solid #1f3b58;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* Estilos para la experiencia y educación */
+.job, .education {
+    margin-bottom: 15px;
+}
+
+.job h3, .education h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.job p, .education p {
+    font-size: 1rem;
+    color: #777;
+}
+
+.job ul, .education ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.job ul li, .education ul li {
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
+
+/* Habilidades y lista */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+    font-size: 1rem;
+    color: #555;
+}
+
+ul.tec li{
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+
+.php{
+    background-color: #777;
+}
+
+.laravel{
+    background-color: brown;
+}
+
+.angular{
+    background-color: red;
+}
+
+.git{
+    background-color: orangered;
+}
+
+.bitbucket{
+    background-color: rgb(0, 115, 255);
+}
+
+.jira{
+    background-color: rgb(0, 115, 255);
+}
+
+.typescript{
+    background-color: rgb(39, 73, 227);
+}
+
+.jquery{
+    background-color: rgb(255, 145, 0);
+}
+/* Estilo de los enlaces */
+a {
+    color: #1f3b58;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #007acc;
+    text-decoration: underline;
+}
+
+/* Sección de contacto */
+#contacto p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1f3b58;
+    color: white;
+    border-radius: 8px;
+    position: relative;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header-small {
+    padding: 10px;
+}
+
+.header-small .header-content{
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.header-small .profile-pic {
+    width: 75px;
+    height: 75px;
+}
+
+.header-small h1 {
+    font-size: 1.8rem;
+}
+
+.header-small p {
+    display: none;
+}
+
+/* Media queries para dispositivos móviles */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    section h2 {
+        font-size: 1.8rem;
+    }
+
+    body {
+        padding: 10px;
+    }
+}
