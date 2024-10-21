@@ -230,11 +230,20 @@ footer {
     }
 
     header .header-content{
-        justify-content: space-between;
+        justify-content: center;
         padding: 20px 10px;
     }
 
     header .profile-pic {
+        width: 100px;
+        height: 100px;
+        margin-right: 20px;
+        border-radius: 50%;
+        object-fit: cover;
+        transition: width 0.3s ease, height 0.3s ease;
+    }
+
+    .header-small .profile-pic {
         width: 75px;
         height: 75px;
     }
