@@ -56,6 +56,10 @@ header p {
     font-weight: 300;
 }
 
+header p.mobil-desc{
+    display: none;
+}
+
 header a{
     color: #e6e6e6;
     font-weight: inherit;
@@ -215,18 +219,44 @@ footer {
     font-size: 1.8rem;
 }
 
-.header-small p {
+.header-small p{
     display: none;
 }
 
 /* Media queries para dispositivos móviles */
 @media (max-width: 768px) {
+    header{
+        padding: 10px;
+    }
+
+    header .header-content{
+        justify-content: space-between;
+        padding: 20px 10px;
+    }
+
+    header .profile-pic {
+        width: 75px;
+        height: 75px;
+    }
+
     header h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
+    }
+
+    header p{
+        display: none;
+    }
+
+    header p.mobil-desc{
+        display:block;
+    }
+
+    .header-small .mobil-desc{	
+        display: none;
     }
 
     section h2 {
-        font-size: 1.8rem;
+        font-size: 1rem;
     }
 
     body {
