@@ -167,6 +167,34 @@ a:hover {
     color: #333;
 }
 
+#badges ul{
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+#badges ul li{
+    display: inline-block;
+}
+ 
+#badges img{
+    width: 120px;
+}
+
+#badges .other-course{
+    margin-top: 10px;
+    display: flex;
+}
+
+#badges .other-course img{
+    width: 50px;
+    border-radius: 100%;
+}
+
+#badges .other-course .course-info{
+    margin-left: 10px;
+}
+
 /* Pie de página */
 footer {
     text-align: center;
