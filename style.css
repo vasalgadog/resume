@@ -181,9 +181,16 @@ a:hover {
     width: 120px;
 }
 
+.course{
+    display: flex;
+    flex-wrap: nowrap;
+    text-wrap: pretty;
+    width: 350px;
+}
+
 #badges .other-course{
     margin-top: 10px;
-    display: flex;
+    margin-right: 5px;
 }
 
 #badges .other-course img{

@@ -1,0 +1,77 @@
+{
+    "mainDegree": "Ingeniero (E) en Computación e Informática | Desarrollador Full Stack",
+    "mobileDegree": "Ingeniero Informático <br> Desarrollador Full Stack",
+    "profile":{
+        "title": "Perfil",
+        "desc": "Desarrollador web Full Stack con un año de experiencia en aplicaciones web y API REST con diferentes lenguajes de programación, aplicando metodologías ágiles, usando git y modelos LLM como ChatGPT y Gemini. Actualmente estoy buscando empleo en cargos como DevOps Trainee, Desarrollador Full Stack, Desarrollador Backend."
+    },
+    "experience": {
+        "title": "Experiencia Profesional",
+        "job": [
+        {
+            "title": "Desarrollador Full Stack - Sistema de Formularios - Freelance",
+            "date": "CAMANCHACA S.A. - Abril 2024 - Junio 2024",
+            "innerDesc": [
+                    "Desarrollo de digitalización de formulario interno usando microservicios, con una API en Laravel y Angular en el frontend",
+                    "Inicio de sesión con Google",
+                    "Modalidad de teletrabajo, usando la metodología SCRUM"
+                ]
+        },
+        {
+            "title": "Desarrollador Full Stack - Sistema de Solicitudes - Freelance",
+            "date": "CAMANCHACA S.A. - Diciembre 2023 - Marzo 2024",
+            "innerDesc": [
+                    "Desarrollo de digitalización de solicitudes internas usando php y Laravel",
+                    "Gestión de usuarios, grupos y privilegios",
+                    "Inicio de sesión con Google",
+                    "Modalidad de teletrabajo, usando la metodología SCRUM"
+                ]
+        }
+        ]
+    },
+    "education": {
+        "title": "Educación",
+        "education": [
+        {
+            "title": "Ingeniería de Ejecución en Computación e Informática",
+            "date": "Titulado | Instituto Profesional Virginio Gómez - 2020 - 2024"
+        },
+        {
+            "title": "Ingeniería Civil Informática",
+            "date": "Incompleto | Universidad de Concepción - 2015 - 2018"
+        }
+        ]
+    },
+    "skills": {
+        "title": "Habilidades",
+        "skills": [
+            "Lenguajes frontend: HTML, JavaScript, CSS, jQuery",
+            "Frameworkd frontend: Angular, React (Aprendiendo)",
+            "Lenguajes backend: PHP, JavaScript",
+            "Frameworks backend: Node.js, Express, Laravel",
+            "Otros lenguajes: C, C++, Java, PL/SQL",
+            "Bases de datos: MySQL, PostgreSQL, MS SQL Server",
+            "Herramientas: Git, Bitbucket, Google Cloud, Oracle Cloud, Jira, Amazon Web Services, Terraform, Docker, Ansible"
+        ]
+    },
+    "badges": {
+        "title": "Insignias y Certificados",
+        "badges": [
+        {
+            "title": "Alura LATAM",
+            "courses": [
+                {
+                    "title": "Git y GitHub: Controle y comparta su código (Sep. 2022)",
+                    "desc": "Id Credencial: 4ad6f696-c506-4b21-bc5d-9b9c0669f0af"
+                }
+            ]
+        }
+        ]
+    },
+    "contact": {
+        "title": "Contacto"
+    },
+    "footer": {
+        "title": "© 2025 Valentín Salgado G. All rights reserved."
+    }
+}

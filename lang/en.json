@@ -1,0 +1,75 @@
+{
+    "mainDegree": "Engineer (E) in Computer Science and Informatics | Full Stack Developer",
+    "mobileDegree": "Computer Engineer <br> Full Stack Developer",
+    "profile": {
+        "title": "Profile",
+        "desc": "Full Stack web developer with one year of experience in web applications and REST APIs using various programming languages, applying agile methodologies, using Git, and leveraging LLMs like ChatGPT and Gemini. I am currently looking for jobs in positions such as DevOps Trainee, Full Stack Developer, Backend Developer."
+    },
+    "experience": {
+        "title": "Professional Experience",
+        "job": [
+            {
+                "title": "Full Stack Developer - Form System - Freelance",
+                "date": "CAMANCHACA S.A. - April 2024 - June 2024",
+                "innerDesc": [
+                    "Development of internal form digitization using microservices, with an API in Laravel and Angular on the frontend ",
+                    "Google login integration",
+                    "Remote work mode, using the SCRUM methodology"
+                ]
+            },
+            {
+                "title": "Full Stack Developer - Request System - Freelance",
+                "date": "CAMANCHACA S.A. - December 2023 - March 2024",
+                "innerDesc": ["Development of internal request digitization using PHP and Laravel",
+                    "User, group, and privilege management",
+                    "Login with Google",
+                    "Remote work mode, using the SCRUM methodology"
+                ]
+            }
+        ]
+    },
+    "education": {
+        "title": "Education",
+        "education": [
+            {
+                "title": "Engineering in Computer Science and Informatics",
+                "date": "Graduated | Virginio Gómez Professional Institute - 2020 - 2024"
+            },
+            {
+                "title": "Civil Computer Engineering",
+                "date": "Incomplete | University of Concepción - 2015 - 2018"
+            }
+        ]
+    },
+    "skills": {
+        "title": "Skills",
+        "skills": [
+            "Frontend languages: HTML, JavaScript, CSS, jQuery",
+            "Frontend frameworks: Angular, React (Learning)",
+            "Backend frameworks: Node.js, Express, Laravel",
+            "Other languages: C, C++, Java, PL/SQL",
+            "Databases: MySQL, PostgreSQL, MS SQL Server",
+            "Tools: Git, Bitbucket, Google Cloud, Oracle Cloud, Jira, Amazon Web Services, Terraform, Docker, Ansible"
+        ]
+    },
+    "badges": {
+        "title": "Badges and Certificates",
+        "badges": [
+            {
+                "title": "Alura LATAM",
+                "courses": [
+                    {
+                        "title": "Git and GitHub: Control and share your code (Sep. 2022)",
+                        "desc": "Credential ID: 4ad6f696-c506-4b21-bc5d-9b9c0669f0af"
+                    }
+                ]
+            }
+        ]
+    },
+    "contact": {
+        "title": "Contact"
+    },
+    "footer": {
+        "title": "© 2025 Valentín Salgado G. All rights reserved."
+    }
+}
