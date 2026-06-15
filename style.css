@@ -75,15 +75,6 @@ main {
     margin: 200px auto 0 auto;
 }
 
-.education {
-    display: flex;
-}
-
-.education .university-icon {
-    width: 70px;
-    margin-right: 15px;
-}
-
 /* Secciones generales */
 section {
     margin: 20px 0;
@@ -129,6 +120,16 @@ section h2 {
 .education ul li {
     margin-bottom: 5px;
     font-size: 1rem;
+}
+
+.education {
+    display: flex;
+}
+
+.education .university-icon {
+    width: 70px;
+    margin-right: 15px;
+    color-scheme: dark !important;
 }
 
 /* Habilidades y lista */
@@ -205,11 +206,7 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Sección de contacto */
-#contacto p {
-    font-size: 1.2rem;
-    color: #333;
-}
+/* Sección de insignias y certificados */
 
 #badges ul {
     width: 100%;
@@ -223,6 +220,7 @@ a:hover {
 
 #badges img {
     width: 120px;
+    color-scheme: dark !important;
 }
 
 .course {
@@ -245,6 +243,12 @@ a:hover {
 
 #badges .other-course .course-info {
     margin-left: 10px;
+}
+
+/* Sección de contacto */
+#contacto p {
+    font-size: 1.2rem;
+    color: #333;
 }
 
 /* Pie de página */
