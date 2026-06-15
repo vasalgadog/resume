@@ -3,11 +3,7 @@
     "mobileDegree": "Ingeniero Informático <br> Desarrollador Full Stack",
     "profile": {
         "title": "Perfil",
-        "desc": "Ingeniero en Computación e Informática con experiencia en desarrollo de software,
-                integración de APIs REST, infraestructura en la nube y prácticas DevOps. Manejo de AWS, GCP, Terraform,
-                Jenkins, Docker y Linux. Conocimientos en el uso de modelos LLM y aplicación de IA generativa para
-                tareas NLP. Experiencia en metodologías ágiles y desarrollo colaborativo. Actualmente cursando Diplomado
-                en Ciberseguridad en la Universidad Autónoma, y buscando trabajos en cargos como Desarrollador de Software, desarrolador Backend, desarrollador Frontend, Desarrollador FullStack, DevOps Trainee."
+        "desc": "Ingeniero en Computación e Informática con experiencia en desarrollo de software, integración de APIs REST, infraestructura en la nube y prácticas DevOps. Manejo de AWS, GCP, Terraform, Jenkins, Docker y Linux. Conocimientos en el uso de modelos LLM y aplicación de IA generativa para tareas NLP. Experiencia en metodologías ágiles y desarrollo colaborativo. Actualmente cursando Diplomado en Ciberseguridad en la Universidad Autónoma, y buscando trabajos en cargos como Desarrollador de Software, desarrolador Backend, desarrollador Frontend, Desarrollador FullStack, DevOps Trainee."
     },
     "experience": {
         "title": "Experiencia Profesional",
