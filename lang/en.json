@@ -3,7 +3,7 @@
     "mobileDegree": "Computer Engineer <br> Full Stack Developer",
     "profile": {
         "title": "Profile",
-        "desc": "Full Stack web developer with one year of experience in web applications and REST APIs using various programming languages, applying agile methodologies, using Git, and leveraging LLMs like ChatGPT and Gemini. I am currently looking for jobs in positions such as DevOps Trainee, Full Stack Developer, Backend Developer."
+        "desc": "Software Engineer with experience in software development, REST API integration, cloud infrastructure, and DevOps practices. Proficient in AWS, GCP, Terraform, Jenkins, Docker, and Linux. Knowledgeable in the use of LLM models and the application of generative AI for NLP tasks. Experienced in agile methodologies and collaborative development. Currently pursuing a Diploma in Cybersecurity at Universidad Autónoma de Chile, and looking for jobs as a Software Engineer, Backend Developer, Frontend Developer, Full Stack Developer, DevOps Trainee."
     },
     "experience": {
         "title": "Professional Experience",
@@ -20,7 +20,8 @@
             {
                 "title": "Full Stack Developer - Request System - Freelance",
                 "date": "CAMANCHACA S.A. - December 2023 - March 2024",
-                "innerDesc": ["Development of internal request digitization using PHP and Laravel",
+                "innerDesc": [
+                    "Development of internal request digitization using PHP and Laravel",
                     "User, group, and privilege management",
                     "Login with Google",
                     "Remote work mode, using the SCRUM methodology"

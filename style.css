@@ -55,6 +55,7 @@ header p {
     font-size: 1.3rem;
     font-weight: 300;
 }
+
 header p.mobil-desc {
     display: none;
 }
@@ -72,6 +73,15 @@ header a:hover {
 main {
     max-width: 90%;
     margin: 200px auto 0 auto;
+}
+
+.education {
+    display: flex;
+}
+
+.education .university-icon {
+    width: 70px;
+    margin-right: 15px;
 }
 
 /* Secciones generales */
@@ -92,26 +102,31 @@ section h2 {
 }
 
 /* Estilos para experiencia y educación */
-.job, .education {
+.job,
+.education {
     margin-bottom: 15px;
 }
 
-.job h3, .education h3 {
+.job h3,
+.education h3 {
     font-size: 1.5rem;
     color: #333;
 }
 
-.job p, .education p {
+.job p,
+.education p {
     font-size: 1rem;
     color: #777;
 }
 
-.job ul, .education ul {
+.job ul,
+.education ul {
     margin-top: 10px;
     padding-left: 20px;
 }
 
-.job ul li, .education ul li {
+.job ul li,
+.education ul li {
     margin-bottom: 5px;
     font-size: 1rem;
 }
@@ -137,16 +152,45 @@ ul.tec li {
     color: white;
 }
 
-.php { background-color: #4F5B93; }
-.laravel { background-color: #FF2D20; }
-.angular { background-color: #DD0031; }
-.git { background-color: #F05032; }
-.bitbucket { background-color: #2684FF; }
-.jira { background-color: #0052CC; }
-.typescript { background-color: #3178C6; }
-.jquery { background-color: #0769AD; }
-.postgresql { background-color: #336791; }
-.mysql { background-color: #00758F; }
+.php {
+    background-color: #4F5B93;
+}
+
+.laravel {
+    background-color: #FF2D20;
+}
+
+.angular {
+    background-color: #DD0031;
+}
+
+.git {
+    background-color: #F05032;
+}
+
+.bitbucket {
+    background-color: #2684FF;
+}
+
+.jira {
+    background-color: #0052CC;
+}
+
+.typescript {
+    background-color: #3178C6;
+}
+
+.jquery {
+    background-color: #0769AD;
+}
+
+.postgresql {
+    background-color: #336791;
+}
+
+.mysql {
+    background-color: #00758F;
+}
 
 /* Estilo de los enlaces */
 a {
@@ -167,38 +211,39 @@ a:hover {
     color: #333;
 }
 
-#badges ul{
+#badges ul {
     width: 100%;
     overflow-x: auto;
     white-space: nowrap;
 }
 
-#badges ul li{
+#badges ul li {
     display: inline-block;
 }
- 
-#badges img{
+
+#badges img {
     width: 120px;
 }
 
-.course{
+.course {
     display: flex;
     flex-wrap: nowrap;
     text-wrap: pretty;
     width: 350px;
 }
 
-#badges .other-course{
+#badges .other-course {
     margin-top: 10px;
     margin-right: 5px;
 }
 
-#badges .other-course img{
+#badges .other-course img {
     width: 50px;
     border-radius: 100%;
+    background-color: #2d3134;
 }
 
-#badges .other-course .course-info{
+#badges .other-course .course-info {
     margin-left: 10px;
 }
 
@@ -281,7 +326,11 @@ footer {
         padding: 10px;
     }
 
-    main{
+    main {
         margin-top: 200px;
+    }
+
+    .education .university-icon {
+        width: 50px;
     }
 }
