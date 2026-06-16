@@ -126,9 +126,17 @@ section h2 {
     display: flex;
 }
 
+.education .university-logo {
+    width: 60px;
+    height: 60px;
+    margin-right: 5px;
+    flex-shrink: 0;
+}
+
 .education .university-icon {
-    width: 70px;
-    margin-right: 15px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
     color-scheme: dark !important;
 }
 
@@ -334,7 +342,8 @@ footer {
         margin-top: 200px;
     }
 
-    .education .university-icon {
-        width: 50px;
+    .university-logo {
+        margin-top: .7em;
     }
+
 }
